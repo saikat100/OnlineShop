@@ -1,0 +1,120 @@
+body{
+    background: #fff;
+}
+
+.main{
+    width: 80%;
+    height: auto;
+    background: #fff;
+    color: black;
+    font-family: cursive,sans-serif;
+    margin: 0px 10% 0px 10%;
+}
+
+.navigation{
+    width: 100%;
+    height: 40px;
+    background:  #18CFDA;
+    color: #fff;
+    float: right;
+    text-align: right;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 25px;
+
+}
+
+.content{
+    width:100%;
+    margin: 0px;
+    height: auto;
+    padding-top: 100px;
+    
+}
+
+.content_index {
+    width: 50%;
+    margin-left: 38%;
+    height: auto;
+    padding-top: 0px;
+}
+.dashboard_form{
+    width:50%;
+    margin-left: 30%;
+    background: #fff;
+    display: block;
+    color: blue;
+    font-family: sans-serif;
+}
+
+form{
+    width: 200px; 
+    height: 40px; 
+    color: #18CFDA;
+    font-family: sans-serif,cursive;
+    margin: 5px;
+}
+input{
+    width: auto;
+    height: 30px;
+    background: #fff;
+    color: #18CFDA;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 5px 0px 5px 0px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #18CFDA;
+    background: #fff;
+    text-decoration: none;
+    border: 1px solid;
+   display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+        
+}
+
+/* visited link */
+a:visited {
+    color: #18CFDA;
+    background: #fff;
+    
+}
+
+/* mouse over link */
+a:hover {
+    color: #ddd;
+}
+
+/* selected link */
+a:active {
+    color:darkorange;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+}
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+

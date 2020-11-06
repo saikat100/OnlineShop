@@ -1,0 +1,15 @@
+/** Your theme modifications here **/
+
+.category_p {
+  background: #fff;
+  border: solid 1px #e6e6e6;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  /* entire container, keeps perspective */
+  /* flip speed goes here */
+  /* hide back of pane during swap */
+  /*  UPDATED! front pane, placed above back */
+  /* back, initially hidden pane */
+}

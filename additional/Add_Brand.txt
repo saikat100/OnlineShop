@@ -1,0 +1,21 @@
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Apple', 'https://www.apple.com/lae/', 'img/logo/apple.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Adidas', 'https://www.adidas.com/us', 'img/logo/adidas.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Nike', 'https://www.nike.com/us/en_us/?ref=https%253A%252F%252Fwww.google.com%252F', 'img/logo/nike.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'HP', '	
+https://www8.hp.com/us/en/home.html', 'img/logo/hp.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Dell', 'https://www.dell.com/', 'img/logo/dell.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'HTC', 'https://www.htc.com/us/', 'img/logo/htc.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Sony', 'https://www.sony-asia.com/', 'img/logo/sony.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Nokia', 'https://www.nokia.com/en_int', 'img/logo/nokia.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Intel', 'https://www.intel.com/content/www/us/en/homepage.html', 'img/logo/intel.png')
+
+INSERT INTO `brand` (`brand_id`, `brand_name`, `weblink`, `logo`) VALUES (NULL, 'Samsung', 'https://www.samsung.com/africa_en/', 'img/logo/samsung.png')
+

@@ -1,0 +1,21 @@
+
+
+CREATE TABLE `onlineshop`.`customer_order` ( `order_id` INT NOT NULL AUTO_INCREMENT , `customer_id` INT NOT NULL , `product_id` INT NOT NULL , `total_amount` INT NOT NULL , `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`order_id`)) ENGINE = InnoDB;
+
+
+
+CREATE TABLE `onlineshop`.`product` ( `product_id` INT NOT NULL AUTO_INCREMENT , `product_name` VARCHAR(50) NOT NULL , `price` INT NOT NULL , `model` VARCHAR(50) NOT NULL , `brand_id` INT NOT NULL , `category_id` INT NOT NULL , `img` VARCHAR(50) NOT NULL , `product_description` TEXT NOT NULL , PRIMARY KEY (`product_id`)) ENGINE = InnoDB;
+
+
+
+
+CREATE TABLE `onlineshop`.`category` ( `ID` INT NOT NULL AUTO_INCREMENT , `category_name` VARCHAR(50) NOT NULL , `total_amount` INT NOT NULL , PRIMARY KEY (`ID`, `category_name`)) ENGINE = InnoDB;
+
+CREATE TABLE `onlineshop`.`customer` ( `customer_id` INT NOT NULL AUTO_INCREMENT , `customer_name` VARCHAR(50) NOT NULL , `password` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL , `phone_no` INT NOT NULL , `address` TEXT NOT NULL , PRIMARY KEY (`customer_id`, `email`)) ENGINE = InnoDB;
+
+CREATE TABLE `onlineshop`.`brand` ( `brand_id` INT NOT NULL AUTO_INCREMENT , `brand_name` VARCHAR(50) NOT NULL , `weblink` TEXT NOT NULL , `logo` VARCHAR(50) NOT NULL , PRIMARY KEY (`brand_id`, `brand_name`)) ENGINE = InnoDB;
+
+CREATE TABLE `onlineshop`.`user` ( `ID` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `password` VARCHAR(50) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
+
+CREATE TABLE `onlineshop`.`payment` ( `payment_id` INT NOT NULL AUTO_INCREMENT , `customer_id` INT NOT NULL , `amount` INT NOT NULL , `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , `quantity` INT NOT NULL , PRIMARY KEY (`payment_id`)) ENGINE = InnoDB;
+

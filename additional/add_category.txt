@@ -1,0 +1,10 @@
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'T-shirt', '500000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Sports T-shirt', '500000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Sports', '300000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'boot', '600000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Mobile', '500000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Laptop', '500000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Ladies T-shirt', '500000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Drinks', '500000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'School Bag', '300000');
+INSERT INTO `category` (`ID`, `category_name`, `total_amount`) VALUES (NULL, 'Watch', '600000');
